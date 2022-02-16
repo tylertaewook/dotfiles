@@ -1,0 +1,15 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = tylertaewook
+	email = 70506321+tylertaewook@users.noreply.github.com
+[credential]
+	helper = osxkeychain
+[core]
+	autocrlf = input
+	excludesfile = /Users/tylerkim/.gitignore_global
+[http]
+	postBuffer = 52428800
