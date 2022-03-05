@@ -76,7 +76,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions fasd)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting fasd)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -130,3 +130,5 @@ unset __conda_setup
 
 export PATH="/usr/local/opt/mongodb-community@4.4/bin:$PATH"
 [ -f "/Users/tylerkim/.ghcup/env" ] && source "/Users/tylerkim/.ghcup/env" # ghcup-env
+source ~/powerlevel10k/powerlevel10k.zsh-theme
+export PATH=/opt/homebrew/bin:/usr/local/opt/mongodb-community@4.4/bin:/Users/tylerkim/opt/anaconda3/bin:/usr/local/opt/mongodb-community@4.4/bin:/Users/tylerkim/opt/anaconda3/bin:/usr/local/opt/mongodb-community@4.4/bin:/Users/tylerkim/opt/anaconda3/bin:/usr/local/opt/mongodb-community@4.4/bin:/Users/tylerkim/opt/anaconda3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
